@@ -1,0 +1,101 @@
+
+h1 {
+    font-size: 2em;
+}
+
+.note{
+   
+}
+@media (max-width: @screen-xs-max){
+    h1 {
+        font-size: 2em;
+    }
+    h3{
+  font-size:.6em;
+}
+}
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+    h1 {
+        font-size: 2em;
+    }
+   h3{
+  font-size:.6em;
+}  
+}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max){
+    h1 {
+        font-size: 2em;
+    }
+}
+@media (min-width: @screen-lg-min){
+    h1 {
+        font-size: 2em;
+    }
+}
+
+body{
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;    
+  	
+	   
+  
+}
+/* Styles go here */
+
+.hundred {
+    transform: scale(4, 4);
+    -ms-transform: scale(4, 4);
+    -webkit-transform: scale(4, 4);
+    -o-transform: scale(4, 4);
+    -moz-transform: scale(4, 4);     
+}
+ 
+
+
+#numbers-frame .number, #answer-frame .well span {
+  display: inline-block;
+  margin: 0.5em;
+  background-color: #bbb;
+  width: 30px;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 50%;
+  cursor:pointer;
+  color:black;
+  padding: 0px;  margin:5px; 
+  transition:all .09s;
+  border: 1px solid black;
+}
+
+#numbers-frame .selected-correct {
+  background-color:#aaddaa;
+  //cursor: not-allowed;
+  disabled: true
+}
+
+#numbers-frame .selected-pressing {
+  transform:scale(1.1);
+  //border-color:#ffc600;
+  box-shadow: 0 0 10pxx #ffc600;
+  
+}
+
+#numbers-frame .selected-wrong {
+  background-color:#ffcccb;
+  //cursor: not-allowed;
+  disabled: true
+}
+
+
+#numbers-frame .enabled {
+  cursor: allowed
+}
+
+.staff{
+  background-color:#fff;
+}
+
+
+
